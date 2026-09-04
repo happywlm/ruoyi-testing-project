@@ -13,13 +13,6 @@
 - 参数设置模块
 - 日志审计模块（操作日志、登录日志）
 
-## 项目结构
-```
-├── test-cases/          # 测试用例（Excel，70条，覆盖9个模块）
-├── test-report/         # 测试报告
-├── postman/             # Postman 接口测试 Collection（20个接口）
-└── sql/                 # 数据验证 SQL 脚本
-```
 
 ## 测试工具
 - **功能测试**：手工测试 + Excel 用例管理
@@ -39,7 +32,7 @@
 ## 产出物说明
 | 文件 | 说明 |
 |------|------|
-| test-cases/若依测试用例.xlsx | 70条功能测试用例，分9个模块，含用例编号/测试点/前置条件/测试步骤/预期结果/实际结果 |
-| test-report/若依系统测试报告.docx | 完整测试报告，含测试概述、测试环境、功能测试结果、接口测试结果、数据库验证、缺陷记录、测试结论 |
-| postman/若依系统接口测试.postman_collection.json | Postman Collection，包含登录、用户CRUD、角色管理、菜单管理等接口 |
-| sql/data_verification.sql | 数据验证用SQL脚本 |
+| 若依测试用例.xlsx | 70条功能测试用例，分9个模块，含用例编号/测试点/前置条件/测试步骤/预期结果/实际结果 |
+| 若依系统测试报告.docx | 完整测试报告，含测试概述、测试环境、功能测试结果、接口测试结果、数据库验证、缺陷记录、测试结论 |
+| 若依系统接口测试.postman_collection.json | Postman Collection，包含登录、用户CRUD、角色管理、菜单管理等接口 |
+| data_verification.sql | 数据验证用SQL脚本 |
